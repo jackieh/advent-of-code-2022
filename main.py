@@ -1,5 +1,6 @@
 import day1
 import day2
+import day3
 
 
 def print_solution_header(day_number):
@@ -13,6 +14,8 @@ def main():
     day1.solve()
     print_solution_header(2)
     day2.solve()
+    print_solution_header(3)
+    day3.solve()
 
 
 if __name__ == '__main__':
